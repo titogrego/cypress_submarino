@@ -1,0 +1,34 @@
+{
+  "name": "zup-desafio",
+  "version": "1.0.0",
+  "description": "Teste automatizado da loja Submarino",
+  "main": "index.js",
+  "scripts": {
+    "testLinux": "npm run cleanLinux && npm run cy:run && npm run report",
+    "cleanLinux": "rm -rf cypress/reports/cucumber-json/**",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "report": "node cypress/reports/reporter.js",
+    "test": "npm run clean && npm run cy:run && npm run report",
+    "clean": "rmdir /S /Q cypress\\reports\\cucumber-json && mkdir cypress\\reports\\cucumber-json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.2.0",
+    "cypress": "^4.12.1",
+    "cypress-cucumber-preprocessor": "^2.5.4",
+    "cypress-xpath": "^1.6.0",
+    "faker": "^4.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson":{
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
