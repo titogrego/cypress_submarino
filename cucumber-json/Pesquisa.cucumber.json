@@ -45,7 +45,7 @@
             "name": "que eu esteja na tela home",
             "result": {
               "status": "passed",
-              "duration": 824000000
+              "duration": 800000000
             }
           },
           {
@@ -55,7 +55,7 @@
             "name": "realizo uma pesquisa \"Games\"",
             "result": {
               "status": "passed",
-              "duration": 1883000000
+              "duration": 2113000000
             }
           },
           {
@@ -65,7 +65,7 @@
             "name": "devo visualizar buscas relacionadas",
             "result": {
               "status": "passed",
-              "duration": 142000000
+              "duration": 112000000
             }
           },
           {
@@ -75,7 +75,7 @@
             "name": "devo visualizar uma lista de produtos",
             "result": {
               "status": "passed",
-              "duration": 311000000
+              "duration": 301000000
             }
           }
         ]
@@ -108,7 +108,7 @@
             "name": "que eu esteja na tela home",
             "result": {
               "status": "passed",
-              "duration": 746000000
+              "duration": 544000000
             }
           },
           {
@@ -118,7 +118,7 @@
             "name": "realizo uma pesquisa \"nyydrhfladlfrfi\"",
             "result": {
               "status": "passed",
-              "duration": 1334000000
+              "duration": 1023000000
             }
           },
           {
