@@ -20,9 +20,9 @@ Para que seja possível visualizar a lista de produtos
     Então devo visualizar mensagem de produto não encontrado
 
 
-    @automatizado
-    Cenário: Realizar uma pesquisa por categoria
-    Quando realizo uma pesquisa por categoria
-    Então devo visualizar a categoria corretamente
+   # @automatizado @WIP
+   # Cenário: Realizar uma pesquisa por categoria
+   # Quando realizo uma pesquisa por categoria
+   # Então devo visualizar a categoria corretamente
     
     
