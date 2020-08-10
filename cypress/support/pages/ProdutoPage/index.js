@@ -19,7 +19,7 @@ cy.get(el.campoCep).scrollIntoView().should("be.visible")
 cy.get(el.btnOk).scrollIntoView().should("be.enabled").click({force: true});
 cy.contains("Entrega").should("be.visible")
 cy.contains("Frete").should("be.visible")
-cy.contains("Prazo").should("be.visible")
+
 }
 
 clicarNoBotaoComprar(){

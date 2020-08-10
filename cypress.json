@@ -2,6 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
     "baseUrl": "https://www.submarino.com.br/",
     "watchForFileChanges" : false,
+    "viewportWidth": 800,
     "chromeWebSecurity": false,
     "testFiles": "**/*.feature"
   }

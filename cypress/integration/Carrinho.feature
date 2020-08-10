@@ -17,7 +17,7 @@ Para que seja possível realizar a compra
     
    @automatizado
    Cenário: Retirar produto do carrinho
-   Quando realizo uma pesquisa "Shampoo"
+   Quando realizo uma pesquisa "Games"
    E seleciono um produto
    E adiciono o produto no carrinho
    E removo produto do  carrinho

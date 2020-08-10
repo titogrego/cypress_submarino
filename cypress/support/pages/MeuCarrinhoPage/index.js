@@ -63,7 +63,7 @@ validarNomeProduto(){
 }
 
 clicarRemover(){
-    cy.contains("Remover").click()
+    cy.contains("Remover").click({force:true})
 }
 
 validarCarrinhoVazio(){

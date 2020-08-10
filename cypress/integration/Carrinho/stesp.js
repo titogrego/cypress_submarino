@@ -3,7 +3,7 @@ import MeuCarrinho from '../../support/pages/MeuCarrinhoPage'
 
 
 When(/^adiciono o produto no carrinho$/, () => {
-    cy.contains("Games").should("exist");
+    
     Produto.validarNomeProduto();
     Produto.preencherOCep("30626380");
     Produto.clicarNoBotaoComprar();
