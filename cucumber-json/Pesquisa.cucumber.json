@@ -1,0 +1,138 @@
+[
+  {
+    "description": "Como usuário, desejo realizar uma pesquisa\nPara que seja possível visualizar a lista de produtos",
+    "keyword": "Funcionalidade",
+    "name": "Pesquisa",
+    "line": 3,
+    "id": "pesquisa",
+    "tags": [
+      {
+        "name": "@DesafioZup",
+        "line": 2
+      },
+      {
+        "name": "@Pesquisa",
+        "line": 2
+      }
+    ],
+    "uri": "Pesquisa.feature",
+    "elements": [
+      {
+        "id": "pesquisa;realizar-uma-pesquisa-válida",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Realizar uma pesquisa válida",
+        "tags": [
+          {
+            "name": "@DesafioZup",
+            "line": 2
+          },
+          {
+            "name": "@Pesquisa",
+            "line": 2
+          },
+          {
+            "name": "@automatizado",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu esteja na tela home",
+            "result": {
+              "status": "passed",
+              "duration": 824000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "realizo uma pesquisa \"Games\"",
+            "result": {
+              "status": "passed",
+              "duration": 1883000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 13,
+            "name": "devo visualizar buscas relacionadas",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "devo visualizar uma lista de produtos",
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pesquisa;realizar-uma-pesquisa-inválida",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Realizar uma pesquisa inválida",
+        "tags": [
+          {
+            "name": "@DesafioZup",
+            "line": 2
+          },
+          {
+            "name": "@Pesquisa",
+            "line": 2
+          },
+          {
+            "name": "@automatizado",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu esteja na tela home",
+            "result": {
+              "status": "passed",
+              "duration": 746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 19,
+            "name": "realizo uma pesquisa \"nyydrhfladlfrfi\"",
+            "result": {
+              "status": "passed",
+              "duration": 1334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 20,
+            "name": "devo visualizar mensagem de produto não encontrado",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

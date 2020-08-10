@@ -1,0 +1,261 @@
+[
+  {
+    "description": "Como usuário, desejo adicionar um produto no carrinho\nPara que seja possível realizar a compra",
+    "keyword": "Funcionalidade",
+    "name": "Carrinho",
+    "line": 3,
+    "id": "carrinho",
+    "tags": [
+      {
+        "name": "@DesafioZup",
+        "line": 2
+      },
+      {
+        "name": "@Carrinho",
+        "line": 2
+      }
+    ],
+    "uri": "Carrinho.feature",
+    "elements": [
+      {
+        "id": "carrinho;adicionar-um-produto-no-carrinho",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Adicionar um produto no carrinho",
+        "tags": [
+          {
+            "name": "@DesafioZup",
+            "line": 2
+          },
+          {
+            "name": "@Carrinho",
+            "line": 2
+          },
+          {
+            "name": "@automatizado",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu esteja na tela home",
+            "result": {
+              "status": "passed",
+              "duration": 1672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "realizo uma pesquisa \"Games\"",
+            "result": {
+              "status": "passed",
+              "duration": 2427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "seleciono um produto",
+            "result": {
+              "status": "passed",
+              "duration": 1380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "adiciono o produto no carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 5789000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "devo visualizar carrinho corretamente",
+            "result": {
+              "status": "passed",
+              "duration": 1377000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "carrinho;retirar-produto-do-carrinho",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Retirar produto do carrinho",
+        "tags": [
+          {
+            "name": "@DesafioZup",
+            "line": 2
+          },
+          {
+            "name": "@Carrinho",
+            "line": 2
+          },
+          {
+            "name": "@automatizado",
+            "line": 18
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu esteja na tela home",
+            "result": {
+              "status": "passed",
+              "duration": 1227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 20,
+            "name": "realizo uma pesquisa \"Games\"",
+            "result": {
+              "status": "passed",
+              "duration": 1845000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 21,
+            "name": "seleciono um produto",
+            "result": {
+              "status": "passed",
+              "duration": 1485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 22,
+            "name": "adiciono o produto no carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 5135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 23,
+            "name": "removo produto do  carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 24,
+            "name": "devo visualizar que o carrinho está vazio",
+            "result": {
+              "status": "passed",
+              "duration": 384000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "carrinho;alterar-quantidade-de-produtos-no-carrinho",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Alterar quantidade de produtos no Carrinho",
+        "tags": [
+          {
+            "name": "@DesafioZup",
+            "line": 2
+          },
+          {
+            "name": "@Carrinho",
+            "line": 2
+          },
+          {
+            "name": "@automatizado",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que eu esteja na tela home",
+            "result": {
+              "status": "passed",
+              "duration": 671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 29,
+            "name": "realizo uma pesquisa \"The Last Of Us 2\"",
+            "result": {
+              "status": "passed",
+              "duration": 1760000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 30,
+            "name": "seleciono um produto",
+            "result": {
+              "status": "passed",
+              "duration": 1178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "adiciono o produto no carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 4285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 32,
+            "name": "Altero a quantidade para \"3\" produtos",
+            "result": {
+              "status": "passed",
+              "duration": 2454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 33,
+            "name": "devo validar a alteração do valor no resumo",
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
