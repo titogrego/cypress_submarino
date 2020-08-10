@@ -45,7 +45,7 @@
             "name": "que eu esteja na tela home",
             "result": {
               "status": "passed",
-              "duration": 1094000000
+              "duration": 1726000000
             }
           },
           {
@@ -55,7 +55,7 @@
             "name": "realizo uma pesquisa \"Games\"",
             "result": {
               "status": "passed",
-              "duration": 2816000000
+              "duration": 2610000000
             }
           },
           {
@@ -65,7 +65,7 @@
             "name": "seleciono um produto",
             "result": {
               "status": "passed",
-              "duration": 1641000000
+              "duration": 1688000000
             }
           },
           {
@@ -75,7 +75,7 @@
             "name": "adiciono o produto no carrinho",
             "result": {
               "status": "passed",
-              "duration": 5826000000
+              "duration": 8578000000
             }
           },
           {
@@ -85,7 +85,7 @@
             "name": "devo visualizar carrinho corretamente",
             "result": {
               "status": "passed",
-              "duration": 3441000000
+              "duration": 2232000000
             }
           }
         ]
@@ -118,7 +118,7 @@
             "name": "que eu esteja na tela home",
             "result": {
               "status": "passed",
-              "duration": 653000000
+              "duration": 1368000000
             }
           },
           {
@@ -128,7 +128,7 @@
             "name": "realizo uma pesquisa \"Games\"",
             "result": {
               "status": "passed",
-              "duration": 1619000000
+              "duration": 2033000000
             }
           },
           {
@@ -138,7 +138,7 @@
             "name": "seleciono um produto",
             "result": {
               "status": "passed",
-              "duration": 1632000000
+              "duration": 1498000000
             }
           },
           {
@@ -148,7 +148,7 @@
             "name": "adiciono o produto no carrinho",
             "result": {
               "status": "passed",
-              "duration": 4400000000
+              "duration": 4884000000
             }
           },
           {
@@ -158,7 +158,7 @@
             "name": "removo produto do  carrinho",
             "result": {
               "status": "passed",
-              "duration": 374000000
+              "duration": 650000000
             }
           },
           {
@@ -168,7 +168,7 @@
             "name": "devo visualizar que o carrinho está vazio",
             "result": {
               "status": "passed",
-              "duration": 313000000
+              "duration": 548000000
             }
           }
         ]
@@ -201,7 +201,7 @@
             "name": "que eu esteja na tela home",
             "result": {
               "status": "passed",
-              "duration": 1029000000
+              "duration": 1048000000
             }
           },
           {
@@ -211,7 +211,7 @@
             "name": "realizo uma pesquisa \"The Last Of Us 2\"",
             "result": {
               "status": "passed",
-              "duration": 1429000000
+              "duration": 1905000000
             }
           },
           {
@@ -221,7 +221,7 @@
             "name": "seleciono um produto",
             "result": {
               "status": "passed",
-              "duration": 862000000
+              "duration": 1285000000
             }
           },
           {
@@ -231,7 +231,7 @@
             "name": "adiciono o produto no carrinho",
             "result": {
               "status": "passed",
-              "duration": 3470000000
+              "duration": 5519000000
             }
           },
           {
@@ -241,7 +241,7 @@
             "name": "Altero a quantidade para \"3\" produtos",
             "result": {
               "status": "passed",
-              "duration": 2584000000
+              "duration": 2715000000
             }
           },
           {
@@ -251,7 +251,7 @@
             "name": "devo validar a alteração do valor no resumo",
             "result": {
               "status": "passed",
-              "duration": 417000000
+              "duration": 409000000
             }
           }
         ]
@@ -304,7 +304,7 @@
             "name": "que eu esteja na tela home",
             "result": {
               "status": "passed",
-              "duration": 800000000
+              "duration": 1243000000
             }
           },
           {
@@ -314,7 +314,7 @@
             "name": "realizo uma pesquisa \"Games\"",
             "result": {
               "status": "passed",
-              "duration": 2113000000
+              "duration": 2235000000
             }
           },
           {
@@ -324,7 +324,7 @@
             "name": "devo visualizar buscas relacionadas",
             "result": {
               "status": "passed",
-              "duration": 112000000
+              "duration": 138000000
             }
           },
           {
@@ -334,7 +334,7 @@
             "name": "devo visualizar uma lista de produtos",
             "result": {
               "status": "passed",
-              "duration": 301000000
+              "duration": 362000000
             }
           }
         ]
@@ -367,7 +367,7 @@
             "name": "que eu esteja na tela home",
             "result": {
               "status": "passed",
-              "duration": 544000000
+              "duration": 909000000
             }
           },
           {
@@ -377,7 +377,7 @@
             "name": "realizo uma pesquisa \"nyydrhfladlfrfi\"",
             "result": {
               "status": "passed",
-              "duration": 1023000000
+              "duration": 1480000000
             }
           },
           {
@@ -387,7 +387,7 @@
             "name": "devo visualizar mensagem de produto não encontrado",
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 33000000
             }
           }
         ]
